@@ -1,0 +1,16 @@
+{
+  "name": "sass-app",
+  "version": "1.0.0",
+  "description": "advance-css-app",
+  "main": "index.js",
+  "scripts": {
+ "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "ashraf",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+
+}
+
